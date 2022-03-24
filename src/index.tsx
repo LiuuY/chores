@@ -1,14 +1,15 @@
+import { ConfigProvider } from "antd";
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { ConfigProvider } from "antd";
 
-import "./antd-global-variables.css";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
 import { About } from "@features/About";
 import { Home } from "@features/Home";
+
+import App from "./App";
+import "./antd-global-variables.css";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>

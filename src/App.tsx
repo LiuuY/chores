@@ -1,9 +1,8 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
-
-import logo from "./logo.svg";
+import { Link, Outlet } from "react-router-dom";
 
 import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
   return (
