@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import styles from "@features/Home/index.module.css";
 
 const About = () => {
   return (
@@ -8,7 +9,9 @@ const About = () => {
         <p>That feels like an existential question, don't you think?</p>
       </main>
       <nav>
-        <Link to="/">Home</Link>
+        <Link className={styles.appLink} to="/">
+          Back
+        </Link>
       </nav>
     </>
   );

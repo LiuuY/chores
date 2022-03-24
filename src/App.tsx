@@ -1,9 +1,7 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 import logo from "./logo.svg";
-import { Home } from "@features/Home";
-import { About } from "@features/About";
 
 import "./App.css";
 
@@ -12,10 +10,8 @@ function App() {
     <div className="app">
       <header className="app-header">
         <img src={logo} className="app-logo" alt="logo" />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-        </Routes>
+        <Link to="/">Home</Link> | <Link to="/about">About</Link>
+        <Outlet />
       </header>
     </div>
   );

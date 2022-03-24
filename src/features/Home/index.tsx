@@ -12,8 +12,8 @@ const Home = () => {
         <Button type="primary">Primary Button</Button>
       </main>
       <nav>
-        <Link className={styles.appLink} to="/about">
-          About
+        <Link className={styles.appLink} to="/">
+          Back
         </Link>
       </nav>
     </>
