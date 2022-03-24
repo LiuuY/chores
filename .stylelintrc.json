@@ -3,5 +3,6 @@
     "stylelint-config-standard",
     "stylelint-config-prettier",
     "stylelint-config-css-modules"
-  ]
+  ],
+  "ignoreFiles": ["src/antd-global-variables.css"]
 }

@@ -2,9 +2,10 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import logo from "./logo.svg";
-import "./App.css";
 import { Home } from "./features/Home";
 import { About } from "./features/About";
+
+import "./App.css";
 
 function App() {
   return (
