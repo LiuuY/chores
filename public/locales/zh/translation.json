@@ -1,7 +1,7 @@
 {
-  "title": "欢迎使用 react using react-i18next",
+  "title": "欢迎使用 react-i18next",
   "description": {
     "part1": "首先, 编辑 <1>src/App.js</1>，，然后保存并刷新页面.",
-    "part2": "使用上面的按钮切换英语和中文"
+    "part2": "使用上面的按钮切换英文和中文"
   }
 }
