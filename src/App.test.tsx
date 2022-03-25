@@ -1,15 +1,19 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import React from "react";
 import { MemoryRouter } from "react-router-dom";
 
 import App from "./App";
 
-test("renders learn react link", () => {
+test("renders learn react link", async () => {
   render(
     <MemoryRouter>
       <App />
     </MemoryRouter>
   );
+
   const linkElement = screen.getByText(/Home/i);
-  expect(linkElement).toBeInTheDocument();
+
+  await waitFor(() => {
+    expect(linkElement).toBeInTheDocument();
+  });
 });
