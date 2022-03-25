@@ -2,9 +2,11 @@
   "importOrder": [
     "<THIRD_PARTY_MODULES>",
     "^@constants/(.*)$",
+    "^@components/(.*)$",
     "^@features/(.*)$",
     "@recoil/(.*)$",
     "@apis/(.*)$",
+    "@hooks/(.*)$",
     "@typed/(.*)$",
     "^[./]"
   ],

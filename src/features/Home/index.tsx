@@ -1,7 +1,8 @@
-import { useDemo } from "../../hooks/query/useDemo";
+import { useDemo } from "@hooks/query/useDemo";
 
 const Home = () => {
-  const { data, error } = useDemo();
+  const { data, error, isLoading } = useDemo();
+  console.log(data, error, isLoading);
   return (
     <>
       <main>
