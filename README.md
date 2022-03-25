@@ -33,4 +33,8 @@
       1. [Dynamic Theme](https://ant.design/docs/react/customize-theme-variable)
 
 6. State Management
+
    1. [Recoil](https://recoiljs.org)
+
+7. i18n
+   1. [react-i18next](https://react.i18next.com/)
