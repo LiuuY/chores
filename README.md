@@ -1,5 +1,7 @@
 # New Project Boilerplate
 
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://chores-liuuy.vercel.app/)
+
 1. [Create React App](https://create-react-app.dev/)
 
    1. Typescript
