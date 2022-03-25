@@ -10,6 +10,6 @@ test("renders learn react link", () => {
       <App />
     </MemoryRouter>
   );
-  const linkElement = screen.getByText(/about/i);
+  const linkElement = screen.getByText(/Home/i);
   expect(linkElement).toBeInTheDocument();
 });

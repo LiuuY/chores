@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@features/*": ["src/features/*"],
-      "@recoil/*": ["src/recoil/*"]
+      "@recoil/*": ["src/recoil/*"],
+      "@constants/*": ["src/constants/*"]
     }
   }
 }

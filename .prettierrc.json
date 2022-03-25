@@ -1,6 +1,7 @@
 {
   "importOrder": [
     "<THIRD_PARTY_MODULES>",
+    "^@constants/(.*)$",
     "^@features/(.*)$",
     "@recoil/(.*)$",
     "^[./]"

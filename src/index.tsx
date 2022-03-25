@@ -4,16 +4,12 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
-import { About } from "@features/About";
-import { Home } from "@features/Home";
-import { Internationalization } from "@features/Internationalization";
-import { Recoil } from "@features/Recoil";
-
 import App from "./App";
 import "./antd-global-variables.css";
 import "./i18n/config";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import { routers } from "./routers";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,10 +18,9 @@ ReactDOM.render(
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<App />}>
-              <Route index element={<Home />} />
-              <Route path="i18n" element={<Internationalization />} />
-              <Route path="state" element={<Recoil />} />
-              <Route path="about" element={<About />} />
+              {routers.map(({ path, component: OriginComponent }) => (
+                <Route key={path} path={path} element={OriginComponent} />
+              ))}
             </Route>
           </Routes>
         </BrowserRouter>
