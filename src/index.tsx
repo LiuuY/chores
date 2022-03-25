@@ -6,8 +6,10 @@ import { RecoilRoot } from "recoil";
 
 import { About } from "@features/About";
 import { Home } from "@features/Home";
+import { Internationalization } from "@features/i18n";
 
 import App from "./App";
+import "./Internationalization/config";
 import "./antd-global-variables.css";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -20,6 +22,7 @@ ReactDOM.render(
           <Routes>
             <Route path="/" element={<App />}>
               <Route index element={<Home />} />
+              <Route path="i18n" element={<Internationalization />} />
               <Route path="about" element={<About />} />
             </Route>
           </Routes>
