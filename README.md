@@ -39,4 +39,12 @@
    1. [Recoil](https://recoiljs.org)
 
 7. i18n
+
    1. [react-i18next](https://react.i18next.com/)
+
+8. Server
+
+   1. [Express](https://github.com/expressjs/express)
+   2. [shrink-ray-current](https://github.com/Alorel/shrink-ray)
+      > Node.js compression middleware with modern codings like brotli and zopfli.
+   3. [ncc](https://github.com/vercel/ncc)
