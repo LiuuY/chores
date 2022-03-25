@@ -42,7 +42,12 @@
 
    1. [react-i18next](https://react.i18next.com/)
 
-8. Server
+8. HTTP
+
+   1. [Axios](https://axios-http.com/)
+   2. [React Query](https://react-query.tanstack.com/)
+
+9. Server
 
    1. [Express](https://github.com/expressjs/express)
    2. [shrink-ray-current](https://github.com/Alorel/shrink-ray)

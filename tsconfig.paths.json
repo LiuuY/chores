@@ -4,7 +4,9 @@
     "paths": {
       "@features/*": ["src/features/*"],
       "@recoil/*": ["src/recoil/*"],
-      "@constants/*": ["src/constants/*"]
+      "@constants/*": ["src/constants/*"],
+      "@apis/*": ["src/apis/*"],
+      "@typed/*": ["src/typed/*"]
     }
   }
 }

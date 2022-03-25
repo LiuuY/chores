@@ -4,6 +4,8 @@
     "^@constants/(.*)$",
     "^@features/(.*)$",
     "@recoil/(.*)$",
+    "@apis/(.*)$",
+    "@typed/(.*)$",
     "^[./]"
   ],
   "importOrderSeparation": true,
